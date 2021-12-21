@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(255, 254, 254);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem; 
+}
+nav ul li{
+    padding: 0 15px;
+}
+.Brand img{
+    width: 44px;
+    padding: 0 8px;
+    }
+ .Brand {
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 1.3rem;
+    }
+    .container{
+        min-height: 75vh;
+        background-color: black;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        margin: 23px auto;
+        width: 70%;
+        border-radius: 12px;
+        padding: 34px;
+        background-image: url(https://wallpaperaccess.com/full/3892577.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  .bottom{
+      position: sticky;
+      height: 110px;
+      background-color:#539e7f;
+      bottom: 0;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      flex-direction: column;
+      padding: 20px 0;
+      border-radius: 10px 10px 0 0;
+  }  
+  #myprogressbar{
+      width:  80vw;
+   }
+   .icons{
+       
+       margin-top: 14px;
+   }
+.songitem{
+height: 50px;
+display: flex;
+background-color: white;
+width: 80%;
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+}
+.songitem img{
+    width: 23px;
+ margin: 0 23px;
+ border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+
+}
